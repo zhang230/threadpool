@@ -153,29 +153,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/threadpool/threadpool.o: src/threadpool/threadpool.cpp.o
+src/threadpool/threadpool.o: src/threadpool/threadpool.c.o
 .PHONY : src/threadpool/threadpool.o
 
 # target to build an object file
-src/threadpool/threadpool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o
-.PHONY : src/threadpool/threadpool.cpp.o
+src/threadpool/threadpool.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/threadpool/threadpool.c.o
+.PHONY : src/threadpool/threadpool.c.o
 
-src/threadpool/threadpool.i: src/threadpool/threadpool.cpp.i
+src/threadpool/threadpool.i: src/threadpool/threadpool.c.i
 .PHONY : src/threadpool/threadpool.i
 
 # target to preprocess a source file
-src/threadpool/threadpool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/threadpool/threadpool.cpp.i
-.PHONY : src/threadpool/threadpool.cpp.i
+src/threadpool/threadpool.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/threadpool/threadpool.c.i
+.PHONY : src/threadpool/threadpool.c.i
 
-src/threadpool/threadpool.s: src/threadpool/threadpool.cpp.s
+src/threadpool/threadpool.s: src/threadpool/threadpool.c.s
 .PHONY : src/threadpool/threadpool.s
 
 # target to generate assembly for a file
-src/threadpool/threadpool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/threadpool/threadpool.cpp.s
-.PHONY : src/threadpool/threadpool.cpp.s
+src/threadpool/threadpool.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/threadpool/threadpool.c.s
+.PHONY : src/threadpool/threadpool.c.s
 
 # Help Target
 help:

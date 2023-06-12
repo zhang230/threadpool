@@ -83,30 +83,30 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zsh/Desktop/cpppro/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
-CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o: ../src/threadpool/threadpool.cpp
-CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zsh/Desktop/cpppro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o -MF CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o.d -o CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o -c /home/zsh/Desktop/cpppro/src/threadpool/threadpool.cpp
+CMakeFiles/main.dir/src/threadpool/threadpool.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/threadpool/threadpool.c.o: ../src/threadpool/threadpool.c
+CMakeFiles/main.dir/src/threadpool/threadpool.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zsh/Desktop/cpppro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/threadpool/threadpool.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/threadpool/threadpool.c.o -MF CMakeFiles/main.dir/src/threadpool/threadpool.c.o.d -o CMakeFiles/main.dir/src/threadpool/threadpool.c.o -c /home/zsh/Desktop/cpppro/src/threadpool/threadpool.c
 
-CMakeFiles/main.dir/src/threadpool/threadpool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/threadpool/threadpool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zsh/Desktop/cpppro/src/threadpool/threadpool.cpp > CMakeFiles/main.dir/src/threadpool/threadpool.cpp.i
+CMakeFiles/main.dir/src/threadpool/threadpool.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/threadpool/threadpool.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zsh/Desktop/cpppro/src/threadpool/threadpool.c > CMakeFiles/main.dir/src/threadpool/threadpool.c.i
 
-CMakeFiles/main.dir/src/threadpool/threadpool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/threadpool/threadpool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zsh/Desktop/cpppro/src/threadpool/threadpool.cpp -o CMakeFiles/main.dir/src/threadpool/threadpool.cpp.s
+CMakeFiles/main.dir/src/threadpool/threadpool.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/threadpool/threadpool.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zsh/Desktop/cpppro/src/threadpool/threadpool.c -o CMakeFiles/main.dir/src/threadpool/threadpool.c.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
-"CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o"
+"CMakeFiles/main.dir/src/threadpool/threadpool.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
-main: CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o
+main: CMakeFiles/main.dir/src/threadpool/threadpool.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zsh/Desktop/cpppro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"

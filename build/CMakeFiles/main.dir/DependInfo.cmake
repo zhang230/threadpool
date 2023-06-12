@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/zsh/Desktop/cpppro/src/threadpool/threadpool.c" "CMakeFiles/main.dir/src/threadpool/threadpool.c.o" "gcc" "CMakeFiles/main.dir/src/threadpool/threadpool.c.o.d"
   "/home/zsh/Desktop/cpppro/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
-  "/home/zsh/Desktop/cpppro/src/threadpool/threadpool.cpp" "CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o" "gcc" "CMakeFiles/main.dir/src/threadpool/threadpool.cpp.o.d"
   )
 
 # Targets to which this target links.
