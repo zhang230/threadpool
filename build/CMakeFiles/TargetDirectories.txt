@@ -1,0 +1,3 @@
+/home/zsh/Desktop/cpppro/build/CMakeFiles/main.dir
+/home/zsh/Desktop/cpppro/build/CMakeFiles/edit_cache.dir
+/home/zsh/Desktop/cpppro/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main_cmake.dir/main.cpp.o CMakeFiles/main_cmake.dir/src/Gun.cpp.o CMakeFiles/main_cmake.dir/src/Soldier.cpp.o -o main_cmake 
