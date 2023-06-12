@@ -43,8 +43,9 @@ int main(int argc, char** args)
         }
     }
     clock_t e = clock();
-    // sleep(30);
+    
     while (pool->alreadyHandNum != taskNum);
+
 
     threadPoolDestroy(pool);
     printf("money a is %d\nhand time %lf\n", a, (double)(e - s) / CLOCKS_PER_SEC);
